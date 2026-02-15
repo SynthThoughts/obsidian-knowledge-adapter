@@ -7,7 +7,7 @@
 - 🧠 **三大内置 Agent（Persona）**
   - **Concept Anatomist（概念解剖师）** — 通过 8 个维度解构任何概念，最终压缩为「顿悟」
   - **Solution Crystallizer（解法结晶师）** — 将调试过程提炼为可复用的解法模式
-  - **Pattern Distiller（范式提炼师）** — 从优秀作品中萃取设计 DNA（色彩、间距、组合规则）
+  - **Pattern Distiller（范式提炼师）** — 从任何优秀作品中萃取核心 DNA（结构、原则、组合规则），适用于代码、架构、设计、工作流等领域
 - 🔗 **Obsidian 深度集成** — Wiki-links、Frontmatter、图谱感知
 - 🛠 **CLI 封装脚本** — 一行命令完成读取、反向链接、搜索、创建笔记等操作
 - 📦 **Agent 安装器** — 一键将内置 Agent 安装到你的 Vault
@@ -80,7 +80,7 @@ git clone https://github.com/SynthThoughts/obsidian-knowledge-adapter.git \
 |-------|------|------|------|
 | 概念解剖师 | 理解新概念 | 任意概念/术语 | 八维分析 + 顿悟压缩 |
 | 解法结晶师 | 事后复盘 | 调试过程/错误日志 | 根因分析 + 通用原则 |
-| 范式提炼师 | 提取设计 DNA | UI/代码/布局 | 设计 Tokens + 组合规则 |
+| 范式提炼师 | 提取成功范式 | 代码/架构/设计/工作流 | 核心 DNA + 组合规则 |
 
 ## 🙏 致谢
 
