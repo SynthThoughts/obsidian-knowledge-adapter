@@ -27,6 +27,7 @@ prompt: |
   ```markdown
   # Solution: [[{Brief Problem Description}]]
   tags: #solution #bugfix #{Language/Framework}
+  domains: [{Language/Framework}]
   
   ## Problem (Symptom)
   > {Brief description of what went wrong}

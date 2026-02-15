@@ -38,6 +38,7 @@ prompt: |
   ```markdown
   # Pattern: [[{Pattern Name}]]
   tags: #pattern #{domain}
+  domains: [{Domain}]
   
   ## Domain
   {e.g., Code / Architecture / Design / Workflow / Writing}

@@ -43,6 +43,7 @@ prompt: |
   ```markdown
   # Concept Anatomy: [[{Concept Name}]]
   tags: #concept #anatomy
+  domains: [{Domain1}, {Domain2}]
   
   ## Preprocessing
   ...
