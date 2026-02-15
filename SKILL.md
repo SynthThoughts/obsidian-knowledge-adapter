@@ -69,6 +69,22 @@ To discover and install available built-in agents (personas) into your current v
 
     This will copy the agent definition to `.antigravity/agents/` in your current working directory (or specified vault root).
 
+
+## Global Knowledge Base Access (New!)
+
+To access the global knowledge base (e.g., `/Users/mfer/AI/Knowledge/AgentKnowledge`) which may not be in your current workspace, use the direct file system script: `scripts/obsidian_fs.py`.
+
+**Script Location**: `scripts/obsidian_fs.py`
+**Usage**:
+- **Read**: `python3 scripts/obsidian_fs.py read "Folder/Note.md" --vault "/Users/mfer/AI/Knowledge/AgentKnowledge"`
+- **Write**: `python3 scripts/obsidian_fs.py write "Folder/NewNote.md" --content "Content..." --vault "/Users/mfer/AI/Knowledge/AgentKnowledge"`
+- **Search**: `python3 scripts/obsidian_fs.py search "query"" --vault "/Users/mfer/AI/Knowledge/AgentKnowledge"`
+
+**When to use**:
+- When the user refers to "AgentKnowledge" or the "Global Vault".
+- When you encounter "Error: path is not in a workspace" while trying to write to the knowledge base.
+- **Preferred Path**: `/Users/mfer/AI/Knowledge/AgentKnowledge`
+
 ## CLI Enhancement
 
 This skill includes a helper script `scripts/obsidian_cli.py` that wraps the official Obsidian CLI (v1.12+).
