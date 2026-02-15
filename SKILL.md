@@ -30,6 +30,19 @@ This skill equips the agent with the "Obsidian Expert" persona and operational r
 - **Vault files**: Use relative paths (`folder/note.md`). Do NOT use absolute paths inside the vault root context.
 - **Link Format**: Use Wiki-links `[[note name]]` instead of standard markdown links `[text](note.md)` when referring to other notes.
 
+## Attachment & File Management (附件与文件管理)
+
+为了保持 Vault 的整洁和一致性，请严格遵守以下附件管理规则：
+
+1.  **Directory (目录)**: 所有非 Markdown 附件（图片, PDF, 压缩包等）必须存放在 Vault 根目录下的 `附件/` 文件夹中。
+2.  **Naming Convention (命名规范)**: 文件名必须使用 `{标识名}_{时间戳}.{扩展名}` 的格式。
+    -   `标识名` (Identifier): 简短、描述性的英文或拼音 Slug (e.g., `architecture_diagram`, `api_response`).
+    -   `时间戳` (Timestamp): 当前时间 `YYYYMMDD_HHMMSS` (e.g., `20231027_143000`).
+    -   **Example**: `network_flow_20231027_143000.png`
+3.  **Linking (引用)**: 引用附件时，使用标准的 Wiki-link 格式，并包含路径（如果都在根目录的 附件 文件夹下，Obsidian 通常可以自动识别，但为了明确性，建议包含路径）：
+    -   Images: `![[附件/filename.png]]`
+    -   Files: `[[附件/filename.pdf]]`
+
 ## Obsidian Context Awareness
 
 ### Frontmatter (YAML)
